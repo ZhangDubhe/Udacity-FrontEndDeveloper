@@ -1,0 +1,40 @@
+/* add your CSS here */
+*{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing:border-box;
+}
+div{
+    -webkit-margin-before: 15px;
+    -webkit-margin-after: 15px;
+}
+.trade-card {
+    background-color: #fff;
+    border: 1px solid #c0c0c0;
+    box-shadow: 3px 3px 1px 0px #bdbdbd;
+    padding-left:14px;
+    padding-right:14px;
+    width:330px;
+    float: left;
+}
+
+.trade-card-img {
+    width:100%;
+}
+
+.trade-card-content{
+    border: 1px solid #c0c0c0;
+    padding-left:14px;
+    padding-right:14px;
+}
+
+.fact{
+    font-style: italic;
+}
+.feature{
+    list-style: none;
+    padding:0;
+}
+
+.feature span{
+    font-weight: bold;
+}
