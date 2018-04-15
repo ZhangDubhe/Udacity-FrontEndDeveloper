@@ -140,6 +140,7 @@ Code, Test, and Refine
 个人觉得学习CSS的基础十分重要，是能够保持代码规范性的重要因素。需要认真对待。
 
 ### CSS Framework & Response layout
+Small [demo](portfolio/featured-work/) of this topic. 
 #### grid layout
 A good example from udacity in a regular grid layout.
 ![Udacity Website](images/grid-example.png)
