@@ -79,3 +79,103 @@ Here is Demo page.[link](./fend-animal-trading-cards-master/card.html)
 
 
 _originly wrote at University of Alberta, 2018.3.30_
+
+## Note in the learning process
+### CODING QUICKLY
+#### key
+Use the shortcut, and remember in specific text editor.
+
+### HTML, CSS and BOXES
+#### 1. Html and dom
+*   HTML  - tag
+*   Dom - elements in tree
+Element is created between in tags.Inside here is content.
+
+Tag also has attribute.CSS allow syntax and rules to change styles like background.
+
+#### 2. Boxes
+How could be a box.Though a circle still a circle. No matter what type of website, we can all design in box.
+
+用盒子思想去构建网页。
+
+Boxes to html. In exercise "Create Folder and File Structure", 
+
+>  the Udacity Front-End Web Developer Style Guide recommends omitting `type="text/css" `from the tag. The correct link tag coding is: 
+
+```css
+<link rel="stylesheet" href="style.css">
+```
+Understant css -- **CSS - csacading style sheets**
+
+Keep going down and down and until to the most specific rule of this element.
+
+#### 3. HOW TO select the element in css
+```css
+/* tag */
+p {
+    
+}
+/* class */
+.description {
+
+}
+/* id */
+#id {
+
+}
+```
+Absolute width and height in pixel have a bad user experience.
+
+Code, Test, and Refine
+1.  Look for the natural box. -- structure
+2.  Look for repeated styles of semantic elements
+3.  Write html
+4.  Apply styles ( from BIGGEST to smallest ) **What's this?**
+5.  Fix things
+
+
+#### Review
+这节课给人的总体印象不太好，课程内容逻辑性不强，从Box跳到Dom又跳回box，然后又是css的一些零碎内容。很难形成系统性的知识。
+
+个人觉得学习CSS的基础十分重要，是能够保持代码规范性的重要因素。需要认真对待。
+
+### CSS Framework & Response layout
+#### grid layout
+A good example from udacity in a regular grid layout.
+![Udacity Website](images/grid-example.png)
+
+#### Framework
+-   Collections of CSS classes, that make page layout easy to implement
+> CSS frameworks are pre-prepared software frameworks that are meant to allow for easier, more standards-compliant web design using the Cascading Style Sheets language. Most of these frameworks contain at least a grid.
+![framework table](images/css-framework.png)
+
+Bootstrap: http://getbootstrap.com/ 
+Foundation: http://foundation.zurb.com/ 
+Yaml: http://www.yaml.de/ 
+960 Grid: http://960.gs/ 
+Susy: http://susy.oddbird.net/ 
+
+Difference between BS3 and BS4:
+response image:
+.img-response & .img-fluid
+
+#### Responsive
+On desktop **width**
+-   Previous 
+    1024px or 1200px
+-   Now 
+    1920px or 1440px
+-   Content
+    Max as 960px is very common.
+
+Most important key:
+-   width : percentage
+-   Use overflow to make sure the text can scroll
+-   Empty space between each column.
+-   Use media query to decide width of different device.
+
+Tips:
+-   tuning: http://placehold.it/ like:`http://via.placeholder.com/350x150`
+
+![Place hold it](http://via.placeholder.com/350x150)
+
