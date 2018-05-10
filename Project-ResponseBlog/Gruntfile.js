@@ -14,21 +14,27 @@ module.exports = function(grunt) {
         options: {
           engine: 'im',
            sizes: [{
-             name: 'small',
-             width: '30%',
-             suffix: '_small',
-             quality: 20
-           }, {
-             name: 'large',
-             width: '50%',
-             suffix: '_large',
-             quality: 40
+             name: "large",
+             width: 1600,
+             suffix: '@2x',
+             quality: 30
            }]
         },
 
         /*
         You don't need to change this part if you don't change
         the directory structure.
+        {
+          name: 'small',
+          width: '30%',
+          suffix: '_small',
+          quality: 20
+        }, {
+          name: 'large',
+          width: '50%',
+          suffix: '_large',
+          quality: 40
+        }
         */
         files: [{
           expand: true,
