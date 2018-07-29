@@ -80,6 +80,19 @@ Here is Demo page.[link](./fend-animal-trading-cards-master/card.html)
 
 _originly wrote at University of Alberta, 2018.3.30_
 
+### Project 4. Response Portfolio
+I am wondering to design a page to show my photos and code so I want to make it more interesting.
+
+Then here comes an ideas, why not make it like a map can be zoom in and zoom out. But also my page also can be look up by just pan and zoom.
+
+So the picture need to be high resolution.
+
+Response Device
+-  Desktop
+-  Mobile: Google Nexus 5
+-  Tablet: Apple iPad
+
+
 ## Note in the learning process
 ### CODING QUICKLY
 #### key
